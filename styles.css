@@ -15,6 +15,7 @@ body {
 }
 .time-line {
   position: relative;
+  padding: 30px;
 }
 .time-line::after{
   content: "";
@@ -36,17 +37,117 @@ body {
 }
 .item {
   position: relative;
-  padding: 40px;
+  padding: 1px;
   bottom:0;
   width: 500px;
+  height: auto;
   background-color: white;
 
 }
-.item::before {
+div.item::after {
   content: "";
   position: absolute;
-  bottom: 8px;
-  width: 0;
-  height: 0;
-  border-style: solid;
+  /* left:-15px; */
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #ABE7D0 transparent transparent;
+  /* top: 60px; */
+}
+div.item:nth-child(even) {
+  left:690px;
+
+}
+div.item:nth-child(even) div::before {
+  content: "";
+  left:-15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #ABE7D0 transparent transparent;
+  top: 60px;
+}
+div.item:nth-child(odd) {
+  left:40px;
+}
+
+#first::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #16668E;
+    border-radius: 50%;
+    right: -86px;
+    top: 14px;
+}
+#second::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background: #16668E;
+    border-radius: 50%;
+    right: 563px;
+    top: 14px;
+
+  }
+  #third::after {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      background: #16668E;
+      border-radius: 50%;
+      right: -86px;
+      top: 14px;
+    }
+  #pencil {
+      position: absolute;
+      right: -80px;
+      top: 20px;
+      z-index: 1;
+    }
+    #pencil1 {
+      position: absolute;
+      right: 570px;
+      top: 19px;
+      z-index: 1;
+    }
+span {
+  float:right;
+  position: absolute;
+  background-color: #FC435B;
+  color: white;
+  padding: 5px;
+  top: 0;
+  right: 0;
+}
+.card {
+  padding: 0;
+}
+.date1 {
+  float:left;
+  position: absolute;
+  background-color: #FC435B;
+  color: white;
+  padding: 5px;
+  top: 0;
+  left: 0;
+  right: 406px;
+  z-index: 2;
+}
+h1 {
+  z-index: 1;
+}
+img {
+  z-index: 3;
+  width: 500px;
+  height: 188px;
+}
+.top-half {
+  height: 180px;
+}
+.work {
+  right: 20px;
+color: white;
+position: absolute;
+bottom: 152px;
+
 }
