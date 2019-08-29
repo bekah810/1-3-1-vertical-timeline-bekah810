@@ -8,11 +8,7 @@
 body {
   background-color: #A9A9A9;
 }
-.quote {
-  border-left: 5px solid black;
-  margin:20px;
-  padding-left: 10px;
-}
+
 .time-line {
   position: relative;
   padding: 30px;
@@ -137,17 +133,59 @@ h1 {
   z-index: 1;
 }
 img {
-  z-index: 3;
+  z-index: 1;
   width: 500px;
   height: 188px;
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
 }
 .top-half {
   height: 180px;
 }
 .work {
   right: 20px;
-color: white;
+color: #000000;
 position: absolute;
-bottom: 152px;
+top: -11px;
 
+}
+.card-title {
+  padding: 10px;
+}
+
+.Title  {
+  padding-top: 35px;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* this is the par. */
+
+}
+.tilte {
+  left: 10px;
+  color: #000000;
+  position: absolute;
+  top: -11px;
+  /* this is the title */
+}
+.quote {
+  border-left: 5px solid black;
+  margin:20px;
+  padding-left: 10px;
+  padding-left: 10px;
+}
+
+}
+.please {
+  color: #000000;
+  position: absolute;
+  padding-left: 10px;
+
+}
+
+button {
+  position: absolute;
+  margin-left: 10px;
+  margin: 10px;
 }
