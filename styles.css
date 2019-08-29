@@ -186,10 +186,20 @@ top: -11px;
 
 }
 
-button {
+button{
   position: absolute;
   margin-left: 10px;
   margin: 10px;
   color: #FFFFFF;
   background-color: #1C678C;
+  border-color: none;
+
+}
+button:hover {
+  color: #262626;
+  background-color: #F9465E;
+  position: absolute;
+  transition: width 4s;
+  width: 475px;
+
 }
