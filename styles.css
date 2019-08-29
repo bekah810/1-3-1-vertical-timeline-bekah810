@@ -201,5 +201,7 @@ button:hover {
   position: absolute;
   transition: width 4s;
   width: 475px;
-
+}
+.bottom {
+  margin-left: 15px; 
 }
