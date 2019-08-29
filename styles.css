@@ -38,6 +38,7 @@ body {
   width: 500px;
   height: auto;
   background-color: white;
+  padding-bottom: 53px;
 
 }
 div.item::after {
@@ -117,6 +118,7 @@ span {
 }
 .card {
   padding: 0;
+
 }
 .date1 {
   float:left;
@@ -177,10 +179,10 @@ top: -11px;
 }
 
 }
-.please {
+.mouse {
   color: #000000;
   position: absolute;
-  padding-left: 10px;
+  margin-left: 10px;
 
 }
 
@@ -188,4 +190,6 @@ button {
   position: absolute;
   margin-left: 10px;
   margin: 10px;
+  color: #FFFFFF;
+  background-color: #1C678C;
 }
